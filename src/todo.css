@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(199, 224, 149);
+    /* margin-left: 50px;
+     */
+     /* align-items: center; */
+}
+.container{
+    background: rgb(41, 33, 33);
+      width: 40vw;
+      margin: 10em auto;
+      border-radius: 15px;
+      padding: 20px 10px;
+      color: white;
+      border: 3px solid rgb(36, 110, 194);
+
+}
+.task{
+    border: 1px solid rgb(248, 244, 8);
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+ 
+.header {
+    color: rgb(248, 244, 8);;
+    margin: 0.5em;
+    font-size: 2em;
+    text-align: center;
+  }
+  .create input[type=text] {
+    margin: 2.5em 2em;
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 0.7em;
+    border-radius: .5em;
+  }
+  .task button{
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+    /* margin: 0px 5px; */
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+  }
